@@ -9,61 +9,67 @@
 
   <body>
     <header>
-      <nav>
-        <div>
+      <nav class="nav-principal">
+        <div class="nav-logo">
           <img src="/assets/img/logo-1.svg" alt="logo" />
         </div>
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Sobre mí</a></li>
-          <li><a href="#">Novedades</a></li>
-          <li><a href="#">Contacto</a></li>
+        <ul class="nav-menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#novedades">Novedades</a></li>
         </ul>
+        <a href="#contacto" class="nav-contacto">Contacto</a>
       </nav>
     </header>
 
-    <main>
-      <section>
-        <header>
-          <span>Semillitas del Saber</span>
-          <h1>
-            🎉 ¡Bienvenidos a un espacio donde la infancia se transforma en
-            magia y aprendizaje! 🎨📚
-          </h1>
-          <hr />
-          <p>
-            Aquí encontrarás inspiración, consejos prácticos y herramientas
-            valiosas para acompañar a tus hijos en su desarrollo, enseñándoles
-            desde temprano a ser creativos, curiosos y con grandes valores.
-            Porque educar no es solo enseñar letras y números… ¡es sembrar amor,
-            respeto y sueños en cada pequeño corazón!❤️
-          </p>
-          <p>
-            Explora, comenta, comparte... ¡y caminemos juntos en esta hermosa
-            aventura de formar seres humanos increíbles!
-          </p>
-        </header>
-        <div>
-          <figure><img src="/assets/img/hero-banner-1.png" alt="" /></figure>
-          <figure><img src="/assets/img/hero-banner-2.jpg" alt="" /></figure>
-          <figure><img src="/assets/img/hero-banner-3.jpg" alt="" /></figure>
-          <figure><img src="/assets/img/hero-banner-4.jpg" alt="" /></figure>
-          <figure><img src="/assets/img/hero-banner-5.jpg" alt="" /></figure>
-          <figure><img src="/assets/img/hero-banner-6.jpg" alt="" /></figure>
-        </div>
-      </section>
-
-      <section>
-        <button>
-          <img src="/assets/img/btn.png" alt="btn-section" />
+    <main id="inicio">
+      <div class="pagina-principal">
+        <section class="hero">
+          <header class="hero-contenido">
+            <span class="hero-destaque hero-destaque-color">novedad</span>
+            <h1>
+              🎉 ¡Bienvenidos a un espacio donde la infancia se transforma en
+              magia y aprendizaje! 🎨📚
+            </h1>
+            <hr />
+            <p class="hero-subtitulo">
+              Aquí encontrarás inspiración, consejos prácticos y herramientas
+              valiosas para acompañar a tus hijos en su desarrollo, enseñándoles
+              desde temprano a ser creativos, curiosos y con grandes valores.
+              Porque educar no es solo enseñar letras y números… ¡es sembrar
+              amor, respeto y sueños en cada pequeño corazón!❤️
+            </p>
+          </header>
+          <div class="hero-galeria">
+            <figure><img src="/assets/img/hero-banner-1.png" alt="" /></figure>
+            <figure><img src="/assets/img/hero-banner-2.jpg" alt="" /></figure>
+            <figure><img src="/assets/img/hero-banner-3.jpg" alt="" /></figure>
+            <figure><img src="/assets/img/hero-banner-4.jpg" alt="" /></figure>
+            <figure><img src="/assets/img/hero-banner-5.jpg" alt="" /></figure>
+            <figure><img src="/assets/img/hero-banner-6.jpg" alt="" /></figure>
+            <figure><img src="/assets/img/hero-banner-7.jpg" alt="" /></figure>
+            <figure><img src="/assets/img/hero-banner-8.jpg" alt="" /></figure>
+            <figure><img src="/assets/img/hero-banner-9.jpg" alt="" /></figure>
+            <figure><img src="/assets/img/hero-banner-10.jpg" alt="" /></figure>
+            <figure><img src="/assets/img/hero-banner-11.jpg" alt="" /></figure>
+            <figure><img src="/assets/img/hero-banner-12.jpg" alt="" /></figure>
+          </div>
+        </section>
+      </div>
+      <section class="btn-destaque">
+        <button id="sobre-mi" type="button">
+          <img
+            src="/assets/img/down-chevron-svgrepo-com.svg"
+            alt="btn-section"
+          />
         </button>
       </section>
 
-      <section>
-        <header>
-          <span>Sobre Mí</span>
-          <h2>Conoce quien soy?</h2>
-          <p>
+      <section class="seccion-sobre">
+        <header class="seccion-sobre-encabezamiento">
+          <span class="hero-destaque hero-destaque-color">Sobre mi</span>
+          <h2 class="seccion-sobre-titulo">Conoce quien soy?</h2>
+          <p class="seccion-sobre-subtitulo">
             Soy una Licenciada en Educación Infantil, nacida en Tucupita, Estado
             Delta Amacuro, y actualmente residenciada en San Félix. Desde muy
             joven descubrí mi vocación por la enseñanza, especialmente en los
@@ -73,64 +79,125 @@
           </p>
         </header>
 
-        <div>
-          <div>
-            <header>
-              <div>
-                <span>inicial 🍼</span>
-                <h3>🎭 Dinámica: “¡Yo soy, tú eres!”</h3>
+        <div class="cards-flex">
+          <div id="novedades" class="container-card">
+            <div class="container-card-novedades">
+              <header class="container-card-encabezamiento">
+                <div class="container-card-encabezamiento-detalles">
+                  <span class="hero-destaque hero-destaque-color-detalles"
+                    >Nivel 1 ⛳</span
+                  >
+                  <h3 class="container-card-titulo">🎭“¡Yo soy, tú eres!”</h3>
+                </div>
+                <a class="container-card-descarga">Descargar 1/1</a>
+              </header>
+              <p class="container-card-descipcion">
+                <strong>Objetivo:</strong> Fomentar la creatividad, la expresión
+                corporal y la atención 🎯
+              </p>
+              <div class="container-card-autor">
+                <img
+                  src="https://scontent.fpll2-1.fna.fbcdn.net/v/t39.30808-6/417195811_24649242688055510_2395672482247853905_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE52eB13jCPaL9Ijhm3SIuuwmuMA54GsXHCa4wDngaxcXWMbnQrkm73lJzXG6xscYw&_nc_ohc=5us_r4YnrLsQ7kNvwFdHZob&_nc_oc=AdlVUmppW2dOd09QWe45nzRi8zRtAPolVKESvNQBXSm-9yFJwHQf8RtKdNQGn730aw8&_nc_zt=23&_nc_ht=scontent.fpll2-1.fna&_nc_gid=38EguIUgeRyJZ9lTUNgOPg&oh=00_AfFkKuaXVXMo2MrCOCOu7cKMFHsv4QCPcKDL2Sg2RFttUg&oe=67FE5BB3"
+                  alt=""
+                />
+                <span class="container-card-autor-nombre">Alida Machado</span>
               </div>
-              <p>Descargar 1/1</p>
-            </header>
-            <p>
-              Objetivo: Fomentar la creatividad, la expresión corporal y la
-              atención 🎯
-            </p>
-            <div>
-              <img
-                src="https://scontent.fpll2-1.fna.fbcdn.net/v/t39.30808-6/417195811_24649242688055510_2395672482247853905_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE52eB13jCPaL9Ijhm3SIuuwmuMA54GsXHCa4wDngaxcXWMbnQrkm73lJzXG6xscYw&_nc_ohc=5us_r4YnrLsQ7kNvwFdHZob&_nc_oc=AdlVUmppW2dOd09QWe45nzRi8zRtAPolVKESvNQBXSm-9yFJwHQf8RtKdNQGn730aw8&_nc_zt=23&_nc_ht=scontent.fpll2-1.fna&_nc_gid=38EguIUgeRyJZ9lTUNgOPg&oh=00_AfFkKuaXVXMo2MrCOCOu7cKMFHsv4QCPcKDL2Sg2RFttUg&oe=67FE5BB3"
-                alt=""
-              />
-              <span>Alida Machado</span>
+            </div>
+          </div>
+
+          <div class="container-card">
+            <div class="container-card-novedades">
+              <header class="container-card-encabezamiento">
+                <div class="container-card-encabezamiento-detalles">
+                  <span class="hero-destaque hero-destaque-color-detalles"
+                    >Nivel 2 ⛳</span
+                  >
+                  <h3 class="container-card-titulo">
+                    💢 “Las Vocales Saltarinas”
+                  </h3>
+                </div>
+                <a class="container-card-descarga">Descargar 1/1</a>
+              </header>
+              <p class="container-card-descipcion">
+                <strong>Objetivo: </strong>Reconocer y memorizar las vocales A,
+                E, I, O, U 💆‍♂
+              </p>
+              <div class="container-card-autor">
+                <img
+                  src="https://scontent.fpll2-1.fna.fbcdn.net/v/t39.30808-6/417195811_24649242688055510_2395672482247853905_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE52eB13jCPaL9Ijhm3SIuuwmuMA54GsXHCa4wDngaxcXWMbnQrkm73lJzXG6xscYw&_nc_ohc=5us_r4YnrLsQ7kNvwFdHZob&_nc_oc=AdlVUmppW2dOd09QWe45nzRi8zRtAPolVKESvNQBXSm-9yFJwHQf8RtKdNQGn730aw8&_nc_zt=23&_nc_ht=scontent.fpll2-1.fna&_nc_gid=38EguIUgeRyJZ9lTUNgOPg&oh=00_AfFkKuaXVXMo2MrCOCOu7cKMFHsv4QCPcKDL2Sg2RFttUg&oe=67FE5BB3"
+                  alt=""
+                />
+                <span class="container-card-autor-nombre">Alida Machado</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-card">
+            <div class="container-card-novedades">
+              <header class="container-card-encabezamiento">
+                <div class="container-card-encabezamiento-detalles">
+                  <span class="hero-destaque hero-destaque-color-detalles"
+                    >Nivel 3 ⛳</span
+                  >
+                  <h3 class="container-card-titulo">
+                    👣 “Caminito de Números”
+                  </h3>
+                </div>
+                <a class="container-card-descarga">Descargar 1/1</a>
+              </header>
+              <p class="container-card-descipcion">
+                <strong>Objetivo: </strong>Reconocer los números del 1 al 10 y
+                contar en voz alta 🗣️
+              </p>
+              <div class="container-card-autor">
+                <img
+                  src="https://scontent.fpll2-1.fna.fbcdn.net/v/t39.30808-6/417195811_24649242688055510_2395672482247853905_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE52eB13jCPaL9Ijhm3SIuuwmuMA54GsXHCa4wDngaxcXWMbnQrkm73lJzXG6xscYw&_nc_ohc=5us_r4YnrLsQ7kNvwFdHZob&_nc_oc=AdlVUmppW2dOd09QWe45nzRi8zRtAPolVKESvNQBXSm-9yFJwHQf8RtKdNQGn730aw8&_nc_zt=23&_nc_ht=scontent.fpll2-1.fna&_nc_gid=38EguIUgeRyJZ9lTUNgOPg&oh=00_AfFkKuaXVXMo2MrCOCOu7cKMFHsv4QCPcKDL2Sg2RFttUg&oe=67FE5BB3"
+                  alt=""
+                />
+                <span class="container-card-autor-nombre">Alida Machado</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="container-card">
+            <div class="container-card-novedades">
+              <header class="container-card-encabezamiento">
+                <div class="container-card-encabezamiento-detalles">
+                  <span class="hero-destaque hero-destaque-color-detalles"
+                    >Nivel 4 ⛳</span
+                  >
+                  <h3 class="container-card-titulo">🆒 “Palabras Mágicas”</h3>
+                </div>
+                <a class="container-card-descarga">Descargar 1/1</a>
+              </header>
+              <p class="container-card-descipcion">
+                <strong>Objetivo: </strong> Formar palabras simples y reforzar
+                el sonido de las letras
+              </p>
+              <div class="container-card-autor">
+                <img
+                  src="https://scontent.fpll2-1.fna.fbcdn.net/v/t39.30808-6/417195811_24649242688055510_2395672482247853905_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeE52eB13jCPaL9Ijhm3SIuuwmuMA54GsXHCa4wDngaxcXWMbnQrkm73lJzXG6xscYw&_nc_ohc=5us_r4YnrLsQ7kNvwFdHZob&_nc_oc=AdlVUmppW2dOd09QWe45nzRi8zRtAPolVKESvNQBXSm-9yFJwHQf8RtKdNQGn730aw8&_nc_zt=23&_nc_ht=scontent.fpll2-1.fna&_nc_gid=38EguIUgeRyJZ9lTUNgOPg&oh=00_AfFkKuaXVXMo2MrCOCOu7cKMFHsv4QCPcKDL2Sg2RFttUg&oe=67FE5BB3"
+                  alt=""
+                />
+                <span class="container-card-autor-nombre">Alida Machado</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer>
-      <div>
-        <div>
-          <a
-            href="https://web.facebook.com/alida.machado.9"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/assets/img/facebook.png" alt="facebook" />
-          </a>
-          <a
-            href="https://www.instagram.com/alidamachado92/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/assets/img/instagram.png" alt="instagram" />
-          </a>
-          <a href="">
-            <img src="/assets/img/whatsapp.png" alt="whatsapp" />
-          </a>
-        </div>
-      </div>
-
+    <footer class="footer">
       <p class="copyright">
         ® Copyright
         <a
           href="https://isbeli.github.io/SobreMim/"
           target="_blank"
           rel="noopener noreferrer"
-          >&lt;CODE-BELI /&gt;</a
+          >&lt;CODE-BELI /&gt 2025</a
         >
-        2025 Blog de Alida Machado - Todos os direitos reservados >
       </p>
+      <p>2025 Blog de Alida Machado - Todos os direitos reservados</p>
     </footer>
   </body>
 </html>
